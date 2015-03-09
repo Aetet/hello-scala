@@ -1,8 +1,11 @@
 /**
  * Created by aetetic on 09.03.15.
  */
+import ch1.Newton
 object App {
   def main (args: Array[String]): Unit = {
-    println("Hey there!");
+
+    val newton = new Newton
+    println(newton.sqrt(9, 11))
   }
 }

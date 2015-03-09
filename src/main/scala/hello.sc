@@ -1,2 +1,3 @@
-val hello = new Hello
-println(hello.sayHello("JS"))
+import ch1.Newton
+val newton = new Newton
+println(newton.sqrt(90, 11))
